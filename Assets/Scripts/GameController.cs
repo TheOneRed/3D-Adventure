@@ -68,9 +68,7 @@ public class GameController : MonoBehaviour {
 
         if (livesValue == 0)
         {
-            //playerController.kill(); // Reference to PlayerController to destroy player game object
-            //this.gameOverSound.Play(); //Sound when you hit zero lives value
-            //this.GameOver();
+            this.GameOver();
         }
     }
 
